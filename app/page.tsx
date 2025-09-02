@@ -11,7 +11,7 @@ export default function Home() {
   });
 
   useEffect(() => {
-    const targetDate = new Date('2025-08-24T22:59:00-08:00'); // August 24th, 2025 at 10:59 PM PST
+    const targetDate = new Date('2025-09-26T22:59:00-08:00'); // September 26th, 2025 at 10:59 PM PST
 
     const calculateTimeLeft = () => {
       const now = new Date();
